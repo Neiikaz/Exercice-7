@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <h1>Me contacter</h1>
+        <nav>
+            <ul>
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="audio.html">Page audio</a></li>
+                <li><a href="video.html">Page vidéo</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>    
+    </header>
+    <main>
+        <form action="contact.html" method="post">
+            <fieldset>
+                <legend>Formulaire de contact</legend>
+                <div>
+                    <label for="nom">Votre nom :</label>
+                    <input type="text" name="nom" id="nom" placeholder="Votre nom">
+                </div>
+                <div>
+                    <label for="email">Mail</label>
+                    <input type="email" name="email" id="email" placeholder="Votre mail">
+                </div>
+                <div>
+                    <input type="radio" name="genre" id="femme">
+                    <label for="femme">Femme</label>
+                    <input type="radio" name="genre" id="homme">
+                    <label for="homme">Homme</label>
+                    <input type="radio" name="genre" id="autre">
+                    <label for="autre">Autre genre</label>
+                </div>
+                <div>
+                    <label for="abonner">S'abonner a la newsletter</label>
+                    <input type="checkbox" name="abonner" id="abonner">
+                </div>
+                <button type="submit">Envoyer</button>
+                <button type="reset">Annuler</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <h5>Mentions légales</h5>
+            <a href="mention.html">Les mentions légales</a>
+        </div>
+        <address>2 Rue du Commerce, 18000 Bourges</address>
+        <address>Allée Charles Pathé, 18000 Bourges</address>
+    </footer>
+</body>
+</html>
